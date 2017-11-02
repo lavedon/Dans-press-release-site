@@ -1,0 +1,262 @@
+.column {
+		float: left;
+		width: 30%
+	}
+		
+/*  Clear floats after the columns */
+.row:after {
+	    content: "";
+       	display: table;
+	    clear: both;	
+	}
+
+	
+.press_release {
+	width: 640px;
+	height: 1500px;
+	text-align: center;
+	font-size: 10px;
+	margin-left: 15%;
+	border: 3px solid black;
+	padding: 5px;
+}
+
+.second_press_release {
+	height: 1400px !important;
+}
+
+	
+.bottom {
+		clear: both;
+		
+		border: 3px solid;
+		padding-top: 12px;
+		padding-left: 3px;
+		padding-right: 3px;
+		padding-bottom: 2px;
+		text-align: center;
+		background-color: #F8D830;
+		border-color: #204078;
+		color: #204078;
+		font-family: Verdana; Arial, Halvetica, sans-serif;
+		font-size: small;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 500px;
+		margin-left: 95px;
+		width: 428px;
+		height: 77px;
+	}
+	
+h3 {
+		text-align: left;
+	}
+	/* 633 - 510 */
+.headline {
+		clear: both;
+		text-align:center;
+		border: 5px solid #204078;
+		border-spacing: 2px;
+		padding: 25px 20px 0px 20px;
+		display: block;
+		font-family: "Arial";
+		font-size: 27px;
+		color: #204078;
+		width: 510px;
+		height: 69px;
+		background-color: #F8D830;
+		margin-left: 61px;
+	}
+	
+h2 {
+		font-size: 24px;
+		
+	}
+	
+.bullet_box {
+		border: 3px solid rgb(32, 64, 120);
+		border-width: 2px;
+		font-family: Verdana, Arial, Halvetica, sans-serif;
+		background-color: none;
+		height: 645px;
+	}
+	
+.contact_info {
+		font-weight: bold; 
+		font-family: 'Verdana';
+		height: 93px;
+	}
+	
+img {
+		display: block;
+		margin-left: 17.5%;
+	}
+	
+ul li {
+		font-weight: normal;
+		padding-top: 5px;
+		padding-bottom:5px;
+		list-style-image: url('bullet.gif');
+		text-align: left;
+		font-size: 12px;
+		line-height: 15px;
+	}
+	
+ul li:nth-child(odd) {
+		font-weight: bold;
+		
+	}
+	
+ol li {
+		font-weight: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: left;
+		text-style: none;
+		text-image: none;
+		font-family: Verdana, Halvetica, Aria, sans-serif;
+		font-size: 16px;
+		line-height: 20px;
+		
+}
+	
+p {
+		font-weight: normal;
+		font-size: 12px;
+		text-align: left;
+		line-height: 25px;
+	}
+	
+#second_body p {
+	font-size: 16px;
+}
+	
+	
+.middle_bullets {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-left:0px;
+	}
+	
+	
+#main_body {
+		-webkit-column-count: 3; 
+		-moz-column-count: 3; /* Firefox */
+		column-count: 3;
+		
+		-webkit-column-gap: 12px; /* Chrome, Safari, Opera */ 
+		-moz-column-gap: 12px; /* Firefox */
+		column-gap: 12px;
+		height: 1130px;
+	}
+	
+#second_body {
+		-webkit-column-count: 2;
+		-moz-column-count: 2; /* Firefox */
+		column-count: 2;
+		
+		-webkit-column-gap: 45px; /* Chrome, Safari, Opera */
+		-moz-column-gap: 45px; /* Firefox */
+		column-gap: 45px;
+		height: 1150px
+	}
+
+#second_body .bullet_box {
+		background-color: #F8D830;
+		height: 690px;
+		margin-bottom: 250px;
+		
+}
+
+.second_bottom {
+	margin-top: -125px !important;
+}
+
+.q_and_a_sheet {
+		color: black;
+		background-color: none;
+		height: 940px !important;
+	
+}
+
+.and_much_more {
+	font-weight: bold;
+	
+}
+
+.questions_headline {
+	font-size: 24px;
+	border: none;
+}
+
+.q_and_a_sheet h2 {
+	font-size: 24px;
+	border: none;
+
+		
+	}
+	
+.q_and_a_sheet h3 {
+	text-align: center;
+	font-size: 19px;
+	font-weight: normal;
+	}
+	
+.q_and_a_sheet h4 {
+	text-align: center;
+	font-style: italic;
+	font-size: 19px;
+	font-weight: bold;
+}	
+
+.q_and_a_sheet li {
+	font-weight: bold;
+	font-size: 13px;
+	font-family: Arial, Halvetica;
+}
+	
+
+	
+/* Tablet Styles (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+	
+body  {
+	background-color: pink;
+ 	}
+
+.column {
+	float: left;
+	width: 100%;
+
+}
+
+.press_release {
+	height: 30000px;
+}
+
+.second_press_release {
+		
+
+}
+
+#main_body {
+	-webkit-column-count: 1;]
+	-moz-column-count: 1;
+	column-count: 1;
+}
+
+#second_body {
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+}
+
+
+/* Mobile Styles (max-width: 414px) */
+@media only screen and (max-width: 414px) {
+	body {
+	background-color: blue;
+	}	
+}
+
+
