@@ -219,7 +219,7 @@ p {
 	
 /* Tablet Styles (max-width: 768px) */
 @media only screen and (max-width: 768px) {
-	body { background-color: pink; }
+	
 	
 
 
@@ -232,9 +232,7 @@ p {
 }
 /* Mobile Styles (max-width: 414px) */
 @media only screen and (max-width: 414px) {
-	body {
-	background-color: grey;
-	}	
+	
 	
 .column {
 	float: left;
