@@ -223,36 +223,19 @@ p {
 	
 
 
-.column {
-	float: left;
-	width: 100%;
 
-}
 
 .press_release {
-}
-
-.second_press_release {
-		
-
-}
-
-#main_body {
-	-webkit-column-count: 1;]
-	-moz-column-count: 1;
-	column-count: 1;
-}
-
-#second_body {
-	-webkit-column-count: 1;
-	-moz-column-count: 1;
-	column-count: 1;
+	margin-left: 0px;
 }
 
 }
 /* Mobile Styles (max-width: 414px) */
 @media only screen and (max-width: 414px) {
-
+	body {
+	background-color: grey;
+	}	
+	
 .column {
 	float: left;
 	width: 100%;
